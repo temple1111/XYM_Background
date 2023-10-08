@@ -1,0 +1,162 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-image: url('07.png');
+    background-size: 80% auto; /* 画像をウィンドウ全体にカバーさせる */
+    background-repeat: no-repeat; /* 画像の繰り返し表示を無効にする */
+    background-attachment: fixed; /* 画像を固定背景にする */
+    background-position: center center; /* 画像を中央に配置 */
+}
+
+@media (max-width: 767px) {
+    /* モバイルデバイス用のスタイル */
+    body {
+        font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-image: url('07.png');
+     /* 画像をウィンドウ全体にカバーさせる */
+    background-repeat: no-repeat; /* 画像の繰り返し表示を無効にする */
+     /* 画像を固定背景にする */
+    background-position: center center; /* 画像を中央に配置 */
+        background-attachment: scroll; /* スクロールに設定し、固定背景を解除 */
+        background-size: contain; /* 画像を縦横比を保ったまま表示 */
+        background-position: center top; /* 画像を上部に配置 */
+    }
+}
+
+
+body {
+    background-color: #808080; /* 任意の灰色の色コードを使用できます */
+}
+
+
+
+/* styles.css */
+
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    background-color: #f5f5f5;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+    /*background-image: url('筋トレ.jpg'); */
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: fixed;*/
+/*}*/
+
+/* styles.css */
+/* トークン保有数に応じた背景スタイル */
+.background-0 {
+    background-image: url('01.png'); /* トークン保有数が0の場合の背景画像 */
+}
+
+.background-1 {
+    background-image: url('02.png'); /* トークン保有数が1の場合の背景画像 */
+}
+
+.background-2 {
+    background-image: url('03.png'); /* トークン保有数が2の場合の背景画像 */
+}
+
+.background-3 {
+    background-image: url('04.png'); /* トークン保有数が2の場合の背景画像 */
+}
+
+.background-4 {
+    background-image: url('05.png'); /* トークン保有数が2の場合の背景画像 */
+}
+
+.background-5 {
+    background-image: url('06.png'); /* トークン保有数が2の場合の背景画像 */
+}
+
+.background-6 {
+    background-image: url('08.png'); /* トークン保有数が2の場合の背景画像 */
+}
+
+.background-7 {
+    background-image: url('08.png'); /* トークン保有数が2の場合の背景画像 */
+}
+
+/* 他のスタイルは同様に続けることができます */
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4); /* 背景色を半透明に設定 */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ #tokenBalance {
+            font-size: 24px;
+            color: #ff9900;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
